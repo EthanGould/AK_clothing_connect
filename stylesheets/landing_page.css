@@ -1,3 +1,11 @@
+body{
+  background: url(http://www.travelalaska.com/~/media/Images/Travel%20Alaska/Content/HomePage/ChugachMountains.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+}
 .header{
   padding: 10px 0;
   border-bottom: 1px solid black;
@@ -19,6 +27,7 @@
   padding: 5px;
   margin-bottom: 5px;
   border: 1px solid red;
+  background: white;
 }
 .btn{
   border-radius: 0 !important;
