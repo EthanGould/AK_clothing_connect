@@ -1,0 +1,10 @@
+.header{
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  position: fixed;
+  background: white;
+}
+.blah{
+  width: 50px;
+}
