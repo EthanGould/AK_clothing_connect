@@ -1,10 +1,22 @@
 .header{
-  width: 100%;
-  padding: 10px;
+  width: 80%;
+  padding: 10px 0;
   border-bottom: 1px solid black;
   position: fixed;
   background: white;
 }
-.blah{
-  width: 50px;
+.btn-group{
+  margin-left: 25px;
+}
+.row{
+  margin-top: 150px;
+}
+.filters{
+  width: 100px;
+}
+.btn{
+  border-radius: 0 !important;
+}
+.header-link{
+  border: 1px solid red !important;
 }
