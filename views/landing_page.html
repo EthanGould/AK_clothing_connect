@@ -47,9 +47,27 @@
       <div class='col-md-2'>
         <div class='filters'>
           <div class="filter-title">FILTER BY</div>
-          <button type="button" class="btn btn-danger btn-block filter">Size</button>
-          <button type="button" class="btn btn-danger btn-block filter">Color</button>
-          <button type="button" class="btn btn-danger btn-block filter">Price</button>
+          <button id='size'type="button" class="btn btn-danger btn-block filter">Size</button>
+          <div class='size-filter-options options'>
+            <a href="#"><div class='size-option option'>Small</div></a>
+            <a href="#"><div class='size-option option'>Medium</div></a>
+            <a href="#"><div class='size-option option'>Large</div></a>
+            <a href="#"><div class='size-option option'>X-Large</div></a>
+          </div>
+          <button id='color' type="button" class="btn btn-danger btn-block filter">Color</button>
+          <div class='color-filter-options options'>
+            <a href="#"><div class='color-option option'>red</div></a>
+            <a href="#"><div class='color-option option'>green</div></a>
+            <a href="#"><div class='color-option option'>blue</div></a>
+            <a href="#"><div class='color-option option'>black</div></a>
+            <a href="#"><div class='color-option option'>white</div></a>
+            <a href="#"><div class='color-option option'>multi-color</div></a>
+          </div>
+          <button id='price' type="button" class="btn btn-danger btn-block filter">Price</button>
+          <div class='price-filter-options options'>
+            <a href="#"><div class='price-option option'>Low to High</div></a>
+            <a href="#"><div class='price-option option'>High to Low</div></a>
+          </div>
         </div>
       </div>
       <div class='col-md-10 products'>
