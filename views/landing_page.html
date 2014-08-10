@@ -6,11 +6,24 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 </head>
 <body>
-  <div class='header'>
-    <img class='logo' src='http://i.imgur.com/pNQ6RZu.png' height='50', width='400'>
-  </div>
   <div class='container'>
+    <div class='header'>
+      <a href='#'><img class='logo' src='http://i.imgur.com/pNQ6RZu.png' height='50', width='400'></a>
+      <div class="btn-group">
+        <button type="button" class="btn btn-default btn-lg header-link">Men</button>
+        <button type="button" class="btn btn-default btn-lg header-link">Women</button>
+        <button type="button" class="btn btn-default btn-lg header-link">About</button>
+        <button type="button" class="btn btn-default btn-lg header-link">Contact</button>
+      </div>
+    </div>
     <div class='row'>
+      <div class='col-md-12'>
+        <div class='filters'>
+          <button type="button" class="btn btn-danger btn-block filter">Size</button>
+          <button type="button" class="btn btn-danger btn-block filter">Color</button>
+          <button type="button" class="btn btn-danger btn-block filter">Price</button>
+        </div>
+      </div>
     </div>
   </div>
 </body>
