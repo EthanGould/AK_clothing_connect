@@ -3,6 +3,7 @@ $(document).ready(function() {
   $("#size").click(App.showSizeOptions)
   $("#color").click(App.showColorOptions)
   $("#price").click(App.showPriceOptions)
+
 });
 
 var App = App || {};
