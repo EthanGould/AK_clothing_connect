@@ -4,33 +4,39 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  position: absolute;
+}
+.container{
+  margin-left: 100px !important;
 }
 .options{
   display: none;
 }
 .header{
+  width: 100%;
   padding: 10px 0;
   border-bottom: 1px solid black;
-  position: fixed !important;
+  position: relative;
+  top: 0;
+  position: fixed;
   background: rgba(255,255,255, 0.8);
 }
 .btn-group{
   margin-left: 25px;
 }
 .filters{
+  position: relative;
+  position: fixed;
   margin-top: 150px;
-  width: 100px;
-  position: fixed !important;
+  width: 90px;
+  height: 500px;
+  z-index: -1;
 }
 .filter{
   font-size: 16px !important;
   margin-top: 5px;
 }
-.filter-title{
+#filter-title{
   text-align: center;
-  height: 32px;
-  width: 100px;
   padding: 5px;
   margin-bottom: 5px;
   border: 1px solid red;
@@ -42,10 +48,10 @@ body{
 .header-link{
   border: 1px solid red !important;
 }
-.products{
-  margin-top: 150px;
-  position: relative;
-  z-index: -1;
+.content{
+margin-top: 150px;
+position: relative;
+z-index: -1;
 }
 .option{
   color: white;
@@ -53,4 +59,27 @@ body{
   font-size: 12px;
   background: rgb(220, 88, 74);
   text-align: center;
+}
+.hot-item-well{
+  margin-top: 150px;
+  text-align: center;
+}
+.countdown{
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  height: 32px;
+  padding: 5px;
+  background: #FFA319;
+}
+.hot-item-buy{
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 32px;
+  padding: 5px;
+  border-top: 1px solid white;
+  background: #2EB82E;
 }
