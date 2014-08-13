@@ -61,7 +61,6 @@ z-index: -1;
   text-align: center;
 }
 .hot-item-well{
-  margin-top: 150px;
   text-align: center;
 }
 .countdown{
@@ -82,4 +81,8 @@ z-index: -1;
   padding: 5px;
   border-top: 1px solid white;
   background: #2EB82E;
+}
+.side-panel{
+  position: fixed;
+  width: 100%;
 }
