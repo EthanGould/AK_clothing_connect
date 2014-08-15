@@ -86,3 +86,43 @@ z-index: -1;
   position: fixed;
   width: 100%;
 }
+#first-block{
+  margin-top: 150px;
+}
+.member-block{
+  margin-bottom: 25px;
+  background: rgba(250, 250, 250, 0.9);
+  height: 250px;
+  width: 850px;
+  padding: 25px;
+  border-radius: 20px;
+}
+.member-pic{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  float: left;
+  margin-bottom: 25px;
+  border: 1px solid black;
+}
+#CTO{
+  background-image: url(https://media.licdn.com/media/p/2/005/077/234/309c24f.jpg);
+  background-position: left;
+}
+#CEO{
+  background-image: url(https://scontent-a-lga.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/970672_1384126195145128_701192438_n.jpg?oh=205b105b7773666a58f21465090b3ebd&oe=547581DD);
+}
+.pic-title{
+  width: 150px;
+  float: left;
+}
+.member-info{
+  width: 75%;
+  float: left;
+  margin-left: 50px;
+}
+.member-title{
+  text-align: center;
+}
