@@ -137,5 +137,6 @@ body{
   margin-top: 40px;
 }
 .member-title{
+  border-top: 1px solid black;
   text-align: center;
 }
