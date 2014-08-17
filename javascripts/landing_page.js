@@ -3,6 +3,7 @@ $(document).ready(function() {
   $("#size").click(App.showSizeOptions)
   $("#color").click(App.showColorOptions)
   $("#price").click(App.showPriceOptions)
+  $(".member-pic").hover(App.showTitle)
 });
 
 var App = App || {};
@@ -24,4 +25,8 @@ App.showColorOptions = function(){
 App.showPriceOptions = function(){
   $options = $('.price-filter-options');
   $options.slideToggle("fast");
+}
+
+App.showTitle = function(){
+  $(this).children('.member-title').slideToggle(100);
 }
